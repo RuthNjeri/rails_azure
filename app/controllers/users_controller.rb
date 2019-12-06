@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
+    # render later after postgres is setup
+    # @users = User.all
+    render html: "Rails Azure APP"
   end
 
   # GET /users/1
